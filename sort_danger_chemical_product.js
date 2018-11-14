@@ -1,3 +1,10 @@
+import "lib/prototype.js";
+
 function sorting(dangerList, ConDB){
-    for(i in )
+    if(dangerList.isArray){
+        return error(dangerList.Prototype)
+    }
+    for (dangerChem in dangerList){
+
+    }
 }
