@@ -1,10 +1,10 @@
 import "lib/prototype.js";
 
-function sorting(dangerList, sqlCon, tableName, chemicalNameColumn, idColumn){
-    if(!(dangerList.isArray)){
-        return error(dangerList.Prototype)
+function sorting(sourceStrList, sqlCon, tableName, targetStrColumn, targetIDColumn){
+    if(!(sourceStrList.isArray)){
+        return error("")
     }
-    for (dangerChem in dangerList){
+    for (sourceStr in sourceStrList){
         
     }
 }
