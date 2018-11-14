@@ -3,13 +3,11 @@
 <br>
 Find thing is on the mysql table.<br>
 <br>
-function scewos(sourceStrList, sqlCon, tableName, targetStrColumn, targetIDColumn){<br>
-    ...<br>
-}<br>
+var result = scewos(sourceStrList, sqlCon, tableName, targetStrColumn, targetIDColumn){<br>
 <br>
 return is json list <br>
-.data() = {id: text, targetStr: text, match: boolean, matchSource: [sourceStr, ...].tostring}<br>
-.matchCount() = {all: int, match: int}<br>
+result.data() = {id: text, targetStr: text, match: boolean, matchSource: [sourceStr, ...].tostring}<br>
+result.matchCount() = {all: int, match: int}<br>
 </body>
 
 
