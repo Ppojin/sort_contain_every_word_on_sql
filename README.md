@@ -6,4 +6,6 @@ function scewos(sourceStrList, sqlCon, tableName, targetStrColumn, targetIDColum
     ...
 }
 
-return is json list [id, targetStr, [sourceStr]]
+return is json list 
+.data() = {id, targetStr, match, matchSource: [sourceStr, ...]}
+.count() = {all: int, match: int, unmatch: int}
