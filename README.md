@@ -3,7 +3,7 @@
 Find thing is on the mysql table.<br>
 <br>
 function scewos(sourceStrList, sqlCon, tableName, targetStrColumn, targetIDColumn){<br>
-    ...<br>
+<p>...<br>
 }<br>
 <br>
 return is json list <br>
