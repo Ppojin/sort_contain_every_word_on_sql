@@ -5,7 +5,6 @@ Find thing is on the mysql table.<br>
 <br>
 var result = scewos(sourceStrList, sqlCon, tableName, targetStrColumn, targetIDColumn){<br>
 <br>
-return is json list <br>
 result.data() = {id: text, targetStr: text, match: boolean, matchSource: [sourceStr, ...].tostring}<br>
 result.matchCount() = {all: int, match: int}<br>
 </body>
